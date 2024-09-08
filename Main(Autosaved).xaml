@@ -100,7 +100,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="434,324" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="Enter Destination" Options="[{&quot;China&quot;,&quot;Bancock&quot;,&quot;England&quot;,&quot;Africa&quot;,&quot;New Delhi&quot;}]" Title="Destination">
+    <ui:InputDialog OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="434,324" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="Enter Destination" Options="[{&quot;China&quot;,&quot;Africa&quot;,&quot;San Diego&quot;, &quot;Canada&quot;}]" Title="Destination">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[Choice]</OutArgument>
       </ui:InputDialog.Result>
